@@ -1,0 +1,125 @@
+
+body{
+	background-color:#696969;
+}
+
+.menu{
+	margin: 0px auto 0 auto;
+	width: 1600px;
+	background-color: #000000;
+	height: 80px;
+	
+}
+
+.menu li{
+	display:inline-block;
+	background-color: #000000;
+	padding: 5px;
+	margin-top: 5px;
+	margin-left:60px;
+}
+
+.menu li a{
+	text-decoration:none;
+	font-size: 30px;
+	font-family: cursive;
+	color: white;
+	padding:10px;
+	
+}
+
+
+.menu li a:hover {
+    background-color: white;
+	color:black;
+}
+
+.menu li a.active {
+    background-color: white;
+    color: black;
+}
+.main{
+	margin: 100px auto 0px auto;
+	background-color:white;
+	height:1300px;
+	width: 1200px;
+	border: 10px solid black;
+}
+
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    font-size:30px;
+    font-family: cursive;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+background-color: white;
+color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#wstep{
+	border-bottom: 10px solid black;
+	margin-top: -50px;
+	margin-bottom: 50px;
+	background-image: url(galeria/title.jpg);
+	background-repeat: no-repeat;
+	width: 100% ;
+	height: 250px;
+	
+}
+
+#wstep p
+{
+	color: red;
+	text-align: left;
+	margin-right: 400px;
+	font-size: 50px;
+}
+
+.img{
+	float:left;
+	margin-left: 35px;
+	margin-top: 30px;
+    border: 1px solid #ccc;
+}
+
+img {
+    opacity: 0.4;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+.desc{
+	text-align:center;
+	font-size: 15px;
+}
+
+
